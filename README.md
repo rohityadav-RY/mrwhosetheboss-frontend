@@ -15,16 +15,16 @@ HTML5 · CSS3 · vanilla JavaScript. No build step. GitHub Pages compatible. Onl
 |---|---|
 | `hero.jpg` | **Not in the zip you sent. Keep/put your existing hero here** (code and styling unchanged). |
 | `video-01.jpg` `video-02.jpg` `video-03.jpg` | Optional overrides. If missing, the page loads each linked video's official YouTube thumbnail (`i.ytimg.com`). Drop your own files here for a fully local site. |
-| `journey.jpg` `story-tech.jpg` `story-world.jpg` `story-community.jpg` `mountain.jpg` | Included: monochrome procedural editorial art (not true AI renders). Replace with generated art — prompts below. Keep the filenames. |
-| `creator.jpg` | **Not included.** Use a real, licensed photo of Arun Maini (official site / Instagram). Shows a labelled placeholder until then. |
+| `JOURNEY.jpg` `STORY-TECH.jpg` `STORY-WORLD.jpg` `STORY-COMMUNITY.jpg` `MOUNTAIN.jpg` | Included: monochrome procedural editorial art (not true AI renders). Replace with generated art — prompts below. Keep the filenames. |
+| `CREATOR.jpg` | **Not included.** Use a real, licensed photo of Arun Maini (official site / Instagram). Shows a labelled placeholder until then. |
 
 ### Prompts for the AI-generated images
 Add to each: *monochrome, warm off-white and charcoal, fine film grain, editorial magazine photography, no text, no logos, no people's faces.*
-- `journey.jpg` (3:2) — a quiet winding road receding toward distant misty hills at dawn.
-- `story-tech.jpg` (3.6:1) — extreme macro of a camera lens, concentric glass rings, soft highlights, dark background.
-- `story-world.jpg` (3.6:1) — layered misty mountain valleys, atmospheric perspective.
-- `story-community.jpg` (3.6:1) — a crowd silhouetted below thousands of soft points of light, shallow depth of field.
-- `mountain.jpg` (≈5:1) — cinematic dark mountain ridges fading into fog, wide.
+- `JOURNEY.jpg` (3:2) — a quiet winding road receding toward distant misty hills at dawn.
+- `STORY-TECH.jpg` (3.6:1) — extreme macro of a camera lens, concentric glass rings, soft highlights, dark background.
+- `STORY-WORLD.jpg` (3.6:1) — layered misty mountain valleys, atmospheric perspective.
+- `STORY-COMMUNITY.jpg` (3.6:1) — a crowd silhouetted below thousands of soft points of light, shallow depth of field.
+- `MOUNTAIN.jpg` (≈5:1) — cinematic dark mountain ridges fading into fog, wide.
 
 ## Featured videos
 Currently: *I Tested the Rarest Tech in 2026!* (`UjRWQND6_ro`), *13 Tragic Tech Fails that need to DIE* (`HvbOESd9u1w`), *60 facts about me* (`Muv0wjyjSNs`). To swap, change the `href`, the `data-remote` video IDs, and the title/category in `index.html`.
