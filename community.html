@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community — MRWHOSETHEBOSS</title>
+  <meta name="description" content="Be part of what's next. Unofficial fan/community project inspired by Arun Maini (Mrwhosetheboss).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.documentElement.classList.add('js');
+    /* Safety net: if the main script never runs, show the content instead of leaving it hidden. */
+    setTimeout(function () { if (!window.__revealReady) document.documentElement.classList.remove('js'); }, 3000);
+  </script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <nav class="nav-links" aria-label="Primary">
+        <a class="reveal-up" style="--d:0" href="index.html">Home</a>
+        <a class="reveal-up" style="--d:.08" href="index.html#journey">Journey</a>
+        <a class="reveal-up" style="--d:.16" href="community.html" aria-current="page">Community</a>
+      </nav>
+      <div class="header-social reveal-up" style="--d:.2" aria-label="Mrwhosetheboss social links">
+        <a class="header-social-link" href="https://www.youtube.com/@Mrwhosetheboss" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss on YouTube">
+          <svg class="social-icon youtube-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.8 31.8 0 0 0 0 12a31.8 31.8 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.8 31.8 0 0 0 24 12a31.8 31.8 0 0 0-.5-5.8Z"/><path class="icon-cutout" d="m9.75 15.5 6.25-3.5-6.25-3.5v7Z"/></svg>
+          <span>YouTube</span>
+        </a>
+        <a class="header-social-link" href="https://www.instagram.com/mrwhosetheboss/" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss on Instagram">
+          <svg class="social-icon instagram-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.7" r="1.15" class="icon-dot"/></svg>
+          <span>Instagram</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap c-grid" aria-labelledby="page-title">
+      <div class="c-copy">
+        <span class="meta reveal-up" style="--d:.25">Community</span>
+        <h1 class="display reveal-lines" id="page-title" style="--d:.35"><span class="line" style="--l:0"><span>Be part of</span></span><span class="line" style="--l:1"><span>what's next.</span></span></h1>
+        <p class="small reveal-up" style="--d:.7">Join the Mrwhosetheboss community and share your thoughts about technology, ideas and the future.</p>
+
+        <div class="reveal-up" style="--d:.85">
+          <form class="form" id="join-form" novalidate aria-label="Join the community">
+            <div class="field">
+              <label for="name">Name *</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required aria-required="true" aria-describedby="name-error">
+              <p class="error" id="name-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="your@email.com" required aria-required="true" aria-describedby="email-error">
+              <p class="error" id="email-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="category">Favourite technology *</label>
+              <select id="category" name="category" required aria-required="true" aria-describedby="category-error">
+                <option value="">Select a category</option>
+                <option>Smartphones</option><option>AI</option><option>Computers</option><option>Cameras</option><option>Gaming</option><option>Future Technology</option><option>Other</option>
+              </select>
+              <p class="error" id="category-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us what you think…" required aria-required="true" aria-describedby="message-error"></textarea>
+              <p class="error" id="message-error" aria-live="polite"></p>
+            </div>
+            <p class="error" id="form-error" role="alert"></p>
+            <button class="btn" type="submit"><span class="spinner" aria-hidden="true"></span><span class="label">JOIN</span> <span class="arr" aria-hidden="true">→</span></button>
+          </form>
+
+          <div class="success" id="success" tabindex="-1" role="status" aria-live="polite" hidden>
+            <span class="check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12.5l5 5L19 7"/></svg></span>
+            <h2>You're in.</h2>
+            <p class="small">Thanks for joining the Mrwhosetheboss community.</p>
+            <a class="more" href="index.html">Back to home <span class="arr" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <figure class="c-image reveal-hero" style="--d:.5">
+        <div class="img-box" data-fallback="dark" data-label="Add images/hero.jpg"><img src="images/hero.jpg" alt="Arun Maini seen from behind, looking out over a landscape" loading="lazy" width="900" height="1400"></div>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer rule">
+    <div class="wrap">
+      <div class="foot reveal-stagger">
+        <a class="foot-brand" href="index.html">Mrwhosetheboss</a>
+        <ul class="social" aria-label="Mrwhosetheboss on the web">
+          <li><a href="https://www.youtube.com/@Mrwhosetheboss" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss on YouTube (opens in a new tab)">YouTube</a></li>
+          <li><a href="https://www.instagram.com/mrwhosetheboss/" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss on Instagram (opens in a new tab)">Instagram</a></li>
+          <li><a href="https://x.com/Mrwhosetheboss" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss on X (opens in a new tab)">X</a></li>
+          <li><a href="https://www.tiktok.com/@mrwhosetheboss" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss on TikTok (opens in a new tab)">TikTok</a></li>
+          <li><a href="https://www.facebook.com/mrwhosetheboss/" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss on Facebook (opens in a new tab)">Facebook</a></li>
+          <li><a href="https://www.mrwhosetheboss.com/" target="_blank" rel="noopener noreferrer" aria-label="Mrwhosetheboss official website (opens in a new tab)">Website</a></li>
+        </ul>
+        <p class="foot-tag">Technology for a better tomorrow.</p>
+        <p class="legal">© 2026 &nbsp;·&nbsp; Unofficial fan-made project. Not affiliated with Mrwhosetheboss.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
